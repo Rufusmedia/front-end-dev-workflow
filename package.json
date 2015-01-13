@@ -2,10 +2,25 @@
   "name": "front-end-dev-starter",
   "version": "1.0.0",
   "description": "A starting set of files for front end dev projects",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository" :
+  { "type" : "git",
+    "url" : "https://github.com/Rufusmedia/front-end-dev-workflow"
+  },
   "author": "Jeromy Condon",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.2",
+    "gulp-autoprefixer": "^2.0.0",
+    "gulp-cache": "^0.2.4",
+    "gulp-concat": "^2.4.3",
+    "gulp-imagemin": "^2.1.0",
+    "gulp-livereload": "^3.2.0",
+    "gulp-minify-css": "^0.3.12",
+    "gulp-notify": "^2.1.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^0.7.2"
+  }
 }
