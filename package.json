@@ -1,0 +1,11 @@
+{
+  "name": "front-end-dev-starter",
+  "version": "1.0.0",
+  "description": "A starting set of files for front end dev projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeromy Condon",
+  "license": "ISC"
+}
